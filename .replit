@@ -1,2 +1,2 @@
 language = "lua"
-run = "global.lua"
+run = "lua global.lua"
