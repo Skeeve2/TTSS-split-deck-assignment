@@ -1,8 +1,7 @@
- name: GitHub Classroom Workflow
+name: GitHub Classroom Workflow
 
-    on: [push]
-
-    jobs:
+on: [push]
+jobs:
       build:
         name: Autograding
         runs-on: ubuntu-latest
