@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "lua install",
+      "setup": "",
+      "run": "sudo -H apt-get install libreadline-dev lua5.3 liblua5.3-dev -yqq",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Split check",
+      "setup": "",
+      "run": "/usr/bin/lua5.3 global.lua",
+      "input": "",
+      "output": "3 1\r\n5 2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
